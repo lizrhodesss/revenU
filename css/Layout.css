@@ -1,31 +1,35 @@
 @charset "UTF-8";
 
-header {
-	width: 100%;
-}
 
-header img {
+
+header div {
 	float: left;
-	width: 170px;
-	height: 170px;
-	/*margin: 2% 2% 0% 2%;*/
+	align-self: center;
 }
 
 ul {
+	background-color: #a5bda1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: stretch;
 	list-style-type: none;
-	padding-top: 40px;
-	padding-left: 5px;
-	display: inline-flex;
 }
 
-li {
+li a {
+	text-align: center;
+	position: relative;
+	margin: 0px;
+	float: left;
 	padding: 20px;
-}
-
-a {
-	color: black;
+	color: #ffffff;
 	text-decoration: none;
 }
+
+
 
 a:hover {
 	text-decoration: underline;
