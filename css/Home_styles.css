@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+p {
+    background-image: url("/testLogo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    color: lightpink;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    width: 100%;
+    display: inline-block;
+    font-size: 38px;
+}
