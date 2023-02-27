@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+h1 {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #a5bda7;
+    font-size: 3em;
+    text-decoration-line: underline;
+}
+
+.piechart {
+    margin-top: 500px;
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-image: conic-gradient(
+            #c5c4c4 70deg,
+            #a5bda7 0 235deg,
+            #657965 0);
+}
+
+body,
+.piechart {
+    display: flex;
+    margin-left: 55px;
+    align-items: center;
+    font-family: Roboto;
+}
+
+.square1 {
+    width: 30px;
+    height: 30px;
+    background: #a5bda7;
+    position: absolute;
+    top: 250px;
+    left: 550px;
+
+
+}
+
+.square2 {
+    width: 30px;
+    height: 30px;
+    background: #c5c4c4;
+    position: absolute;
+    top: 325px;
+    left: 550px;
+
+}
+
+.square3 {
+    width: 30px;
+    height: 30px;
+    background: #657965;
+    position: absolute;
+    top: 400px;
+    left: 550px;
+}
+
+p1 {
+    font-family: roboto;
+    padding-left: 40px;
+    font-size: 1.5em;
+}
+
+p2 {
+    font-family: roboto;
+    padding-left: 40px;
+    font-size: 1.5em;
+}
+
+p3 {
+    font-family: roboto;
+    padding-left: 40px;
+    font-size: 1.5em;
+}
+
+
+p4 {
+    font: "Roboto";
+    color: #374335;
+    position: absolute;
+    top: 600px;
+    left: 100px;
+    font-size: 1.5em;
+    line-height: .9;
+}
+
+p5 {
+    font: "Roboto";
+    color: #374335;
+    position: absolute;
+    top: 650px;
+    left: 100px;
+    font-size: 1.5em;
+    line-height: .9;
+}
+
+p6 {
+    font: "Roboto";
+    color: #374335;
+    position: absolute;
+    top: 700px;
+    left: 100px;
+    font-size: 1.5em;
+    line-height: .9;
+}
+
+p7 {
+    font: "Roboto";
+    color: #374335;
+    position: absolute;
+    top: 750px;
+    left: 100px;
+    font-size: 1.5em;
+    line-height: .9;
+}
+
+p8 {
+    font: "Roboto";
+    color: #374335;
+    position: absolute;
+    top: 800px;
+    left: 100px;
+    font-size: 1.5em;
+    line-height: .9;
+}
+
+p9 {
+    font: "Roboto";
+    color: #374335;
+    position: absolute;
+    top: 850px;
+    left: 100px;
+    font-size: 1.5em;
+    line-height: .9;
+    padding-bottom: 200px;
+}

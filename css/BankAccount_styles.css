@@ -1,0 +1,30 @@
+h1 {
+    font: "Roboto";
+    color: #a5bda1;
+    font-size: 75px;
+    text-align: center;
+    padding-top: 100px;
+    width: 100%;
+    display: inline-block;
+}
+
+p {
+    font: "Roboto";
+    color: #374335;
+    font-size: 20px;
+    text-align: left;
+    width: 100%;
+    display: inline-block;
+}
+
+ol {
+    padding-top: 50px;
+    font: "Roboto";
+    color: #374335;
+    font-size: 18px;
+    padding-bottom: 50px;
+}
+
+li {
+    line-height: 2em;
+}

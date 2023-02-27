@@ -22,7 +22,7 @@ p2 {
 
 p3 {
     font: "Monospace";
-    color: #374335;
+    color: #a5bda1;
     font-size: 20px;
     text-align: center;
     padding-top: 20px;
@@ -30,13 +30,21 @@ p3 {
     display: inline-block;
 }
 
-p4 {
-    font: "Monospace";
-    color: #374335;
-    font-size: 20px;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 100px;
+table {
+    padding-top: 100px;
     width: 100%;
-    display: inline-block;
+}
+
+th {
+    color: #374335;
+}
+td {
+    color: #374335;
+    border: 2px solid #a5bda1;
+    border-collapse: separate;
+    padding: 20px;
+}
+
+td:active {
+    color: #374335;
 }
